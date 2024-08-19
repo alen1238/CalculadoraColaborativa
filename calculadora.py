@@ -9,18 +9,18 @@ def multiplicar(a,b):
 
 def dividir(a,b):
     if b == 0:
-        return "error: División por cero"
+        return "error: No se puede dividir por cero"
     else:
         return a/b
 
 if __name__ == "__main__":
-    print("Calculadora simple")
+    print("Calculadora colaborativa")
     print("1. Sumar")
     print("2. Restar")
     print("3. Multiplicar")
     print("4. Dividir")
 
-    opcion = int(input("Elige una opción (1/2/3/4): "))
+    opcion = int(input("Elige una opción de la 1 a la 4: "))
     num1 = float(input("Introduce el primer número"))
     num2 = float(input("Introduce el segundo número"))
 
